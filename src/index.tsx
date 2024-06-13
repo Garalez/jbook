@@ -1,6 +1,7 @@
 import 'bulmaswatch/superhero/bulmaswatch.min.css';
 import { createRoot } from 'react-dom/client';
-import CodeCell from './components/code-cell';
+// import CodeCell from './components/code-cell';
+import TextEditor from './components/text-editor';
 
 const appElement = document.getElementById('root');
 
@@ -12,7 +13,8 @@ const App = () => {
 
   return (
     <div>
-      <CodeCell />
+      <TextEditor />
+      {/* <CodeCell /> */}
     </div>
   );
 };
